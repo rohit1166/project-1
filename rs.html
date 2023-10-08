@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Cake Shop
+    </title>
+    <style>
+body {
+            padding: 0%;
+            margin: 0%;
+            background-color: antiquewhite;
+        }
+        
+        .navbar {
+            background-color: tomato;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-icon {
+            height: 50px;
+        }
+        
+        .navabar-brand-name {
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        .navbar-menu {
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 10px;
+            cursor: pointer;
+            background-color: white;
+            padding: 5px 20px;
+            border-radius: 20px;
+        }
+        
+        .navbar-menu:hover {
+            background-color: #ffcc00;
+            box-shadow: 0px 0px 5px 2px;
+            padding: 7px 25px;
+            transform: 0.5s;
+        }
+        
+        .navabar-menu-container {
+            margin-left: 200px;
+        }
+        
+        .shop-ing {
+            width: 400px;
+            margin: 30px;
+        }
+        
+        .header-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .header-title {
+            font-size: 50px;
+            color: #e67300;
+        }
+        
+        .header-decription {
+            font-size: 30px;
+            color: black;
+        }
+        
+        .header-explor-btn {
+            font-size: 30px;
+            font-weight: bold;
+            background-color: #e67300;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        
+        .our-feature-heading {
+            font-size: 50px;
+            color: #e67300;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .feature_card {
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 2px rgba(0, 0, 0, 0, 2);
+            background-color: #fff;
+            position: relative;
+        }
+        
+        .ico-feature {
+            font-size: 50px;
+            position: absolute;
+            top: -45px;
+            left: 120px;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #e67300;
+            border-radius: 10px;
+            color: #e67300;
+            width: 70px;
+            text-align: center;
+        }
+        
+        .feature_title {
+            text-align: center;
+            color: #e67300;
+            font-size: 22px;
+        }
+        
+        .feature_description {
+            text-align: center;
+        }
+        
+        .feature_container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        
+        .feature_card {
+            margin-top: 80px;
+        }
+    }
+    @media only screen and (max-width:600px) {
+        .navabar-menu-container {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .navbar {
+            flex-direction: column;
+        }
+        
+        .navbar-menu {
+            display: block;
+            margin: 10px;
+            width: 100px;
+            text-align: center;
+        }
+        
+        .shop-ing {
+            width: 200px;
+        }
+        
+        .header-title {
+            font-size: 30px;
+        }
+        
+        .header-decription {
+            font-size: 20px;
+        }
+        
+        .header-explor-btn {
+            font-size: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media only screen and ( max-width :601px)and (max-width:800) {
+    .navabar-menu-container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .header-explor-btn {
+        font-size: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .feature_card {
+        margin-top: 80px;
+    }
+}
+@media only screen and (min-width:801px)and (max-width:100px) {
+    margin-top:100px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="cake.png" class=" navbar-icon" />
+        <span class=" navabar-brand-name"> Rohit's Cake shop </span>
+
+        <div class="navabar-menu-container">
+
+            <span class=" navbar-menu"> Home</span>
+
+            <span class=" navbar-menu"> About</span>
+
+            <span class=" navbar-menu">Services </span>
+
+            <span class=" navbar-menu">contact </span>
+        </div>
+
+    </div>
+
+    <div class=" header-container" <div>
+        <img src="cake-shop.png" class="shop-ing" </div>
+
+        <div>
+            <h1 class=" header-title"> We bake your dream...</h1>
+            <p class="header-decription ">Order your favourite cake now!🎂</p>
+            <button class=" header-explor-btn" type="button"> Explor cake 👉</button>
+        </div>
+    </div>
+
+    <div>
+        <h1 class=" our-feature-heading"> why choose us?</h1>
+        <div class="feature_container ">
+
+
+            <div class="feature_card">
+                <i class="fa-solid fa-fire-burner ico-feature"></i>
+                <h3 class=" feature_title"> Freshly Baked Cakes</h3>
+                <p class=" feature_description">our cake are Freshly Baked and delivered to you within 4 hour of baking.</p>
+            </div>
+
+            <div class="feature_card">
+                <i class="fa-solid fa-box-open ico-feature"></i>
+                <h3 class=" feature_title"> Free delivered</h3>
+                <p class=" feature_description"> We provid free delivered of cakes within 10km of our shop </p>
+            </div>
+
+            <div class="feature_card">
+                <i class="fa-solid fa-egg ico-feature "></i>
+                <h3 class=" feature_title"> Eggless Cakes</h3>
+                <p class=" feature_description">We aloso provid Eggless cake for our vegetarian customers.</p>
+            </div>
+
+            <div class="feature_card">
+                <i class="fa-solid fa-kitchen-set ico-feature"></i>
+                <h3 class=" feature_title"> unique designs</h3>
+                <p class=" feature_description">our cake are fresh back and are delivered to you wit'4 hours of baking. </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/2bd418002a.js " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
